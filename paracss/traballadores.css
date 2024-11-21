@@ -1,0 +1,62 @@
+empresa {
+    display: block;
+    background-color: #4682B4;
+}
+
+id {
+    display: block;
+    text-align:center;
+    font-size: 30px;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+empleados {
+    display: block;
+    
+}
+
+departamentos {
+    display: block;
+}
+
+departamento {
+    display: block;
+    background-color: #D3D3D3;
+    border: 2px solid black;
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+nome-departamento {
+    display: block;
+    text-align:center;
+    font-size: 23px;
+    margin: 0px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    
+
+}
+
+traballadores {
+    display: block;
+    margin-top: 30px;
+}
+
+xefe {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nome {
+    display: block;
+    margin-bottom: 20px;
+}
+
+traballador {
+    display: block;
+    margin-bottom: 20px;
+}
