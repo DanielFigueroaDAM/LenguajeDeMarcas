@@ -1,0 +1,14 @@
+<?xml-stylesheet href="taxeta2.css" type="text/css"?>
+<raiz>
+    <recuadro>
+        <tarjeta>
+            <nombre_tarjeta>Tarjeta DAM</nombre_tarjeta>
+            <numero_cuenta>XXXX XXXX XXXX</numero_cuenta>
+            <config>
+                <color/>
+                <nombre_banco>UWUN'T BANK</nombre_banco>
+            </config>
+            <usuario>Daniel Figueroa Vidal</usuario>
+        </tarjeta>
+    </recuadro>
+</raiz>
