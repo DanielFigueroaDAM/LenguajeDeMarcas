@@ -1,0 +1,43 @@
+profesor {
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+departamento {
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: right;
+    width: calc(100%);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;  
+}
+
+nome {
+    display: inline;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+apelido {
+    display: inline;
+    font-size: 30px;
+}
+
+cargos {
+    display: block;
+    text-indent: 20px;
+}
+
+cargo {
+    display: block;
+    text-indent: 60px;
+    font-size: 15px;
+    font-style: italic;
+}
