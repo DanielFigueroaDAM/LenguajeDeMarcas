@@ -1,0 +1,18 @@
+*{
+    display:inline-block;
+}
+modulo{
+    background-color: rgb(0, 0, 0);
+}
+alumnos{
+    width: 700px;
+    height: 350px;
+}
+alumno{
+
+    display:block;
+}
+centro{
+    border: 2px solid black;
+    
+}
