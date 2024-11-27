@@ -3,16 +3,45 @@
 }
 modulo{
     background-color: rgb(0, 0, 0);
+    color: white;
+    width: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    border: 2px solid black;
 }
 alumnos{
-    width: 700px;
-    height: 350px;
+    width: 900px;
 }
 alumno{
-
+    display:block;
+    border: 2px solid black;
+    width: 900px;
+    height: 40px;
+}
+nome{
+    font-weight:bold;
+    font-size: 13px;
+}
+apelido{
+    font-weight:bold;
+    font-size: 13px;
+}
+tema {
+    height: 20px;
+    width: 40px;
+    padding-left: 150px;
+}
+temas{
     display:block;
 }
 centro{
-    border: 2px solid black;
-    
+    font-size: 10px;
+    display:block;
+}
+profesor{
+    display:block;
+    padding: 15px;
+    padding-left: 70px;
 }
