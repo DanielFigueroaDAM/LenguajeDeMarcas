@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet href="tempo.css" type="text/css" ?>
+<?xml-stylesheet href="tempo2.css" type="text/css" ?>
 <tempo>
     <poboacion>
         <nome>Ponteareas</nome>
@@ -12,12 +12,15 @@
 		<vento>24 km/h</vento>
         <prevision hora="08:00" estado="soleado">
 	    	<graos>16</graos>
+			<imagen1/>
 		</prevision>
 		<prevision hora="14:00" estado="soleado">
 	    	<graos>24</graos>
+			<imagen1/>
 		</prevision>
 		<prevision hora="20:00" estado="soleado">
 	    	<graos>20</graos>
+			<imagen1/>
 		</prevision>
     </previsions>                     
 </tempo>

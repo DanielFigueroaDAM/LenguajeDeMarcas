@@ -1,4 +1,4 @@
-display:flex
+
 Nuevamente, utiliza justify-content para ayudar a esas ranas a llegar a sus hojas de lirio. Recuerda que esta propiedad CSS alinea elementos horizontalmente y acepta los siguientes valores:
 
     flex-start: Alinea elementos al lado izquierdo del contenedor.
@@ -22,7 +22,9 @@ Las ranas necesitan ponerse en el mismo orden que sus hojas de lirio usando flex
     column: Elementos se colocan de arriba hacia abajo.
     column-reverse: Elementos se colocan de abajo hacia arriba.
 
-¡Oh, no! Todas las ranas están apretadas en una sola fila de hojas de lirio. Manos a la obra, vamos a distribuirlas correctamente usando la propiedad flex-wrap, la cual acepta los siguientes valores:
+¡Oh, no! Todas las ranas están apretadas en una sola fila de hojas de lirio. 
+Manos a la obra, vamos a distribuirlas correctamente usando la propiedad 
+flex-wrap, la cual acepta los siguientes valores:
 
     nowrap: Cada elemento se ajusta en una sola línea.
     wrap: los elementos se envuelven alrededor de líneas adicionales.
