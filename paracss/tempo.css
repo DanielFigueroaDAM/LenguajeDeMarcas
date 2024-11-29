@@ -1,0 +1,21 @@
+imagen1{
+    background-image: url('imagenes/nuboso.png');
+    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+    display:block;
+}
+imagen2{
+    background-image: url('imagenes/nuboso.png');
+    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+    display:block;
+}
+imagen3{
+    background-image: url('imagenes/chuvia.png');
+    margin-top: 10px;
+    width: 130px;
+    height: 130px;
+    display:block;
+}

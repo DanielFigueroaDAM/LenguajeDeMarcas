@@ -12,12 +12,15 @@
 		<vento>24 km/h</vento>
         <prevision hora="08:00" estado="nuboso">
 	    	<graos>16</graos>
+			<imagen1/>
 		</prevision>
 		<prevision hora="14:00" estado="nuboso">
 	    	<graos>24</graos>
+			<imagen2/>
 		</prevision>
-		<prevision hora="20:00" estado="chuvia">
+		<prevision hora="20:00" estado="chuvia"> 
 	    	<graos>20</graos>
+			<imagen3/>
 		</prevision>
     </previsions>                     
 </tempo>
