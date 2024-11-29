@@ -12,20 +12,20 @@
          <apelido>Rodríguez</apelido>
          <apelido>López</apelido>
          <temas>
-             <tema num="1">Si</tema>
-             <tema num="2">Si</tema>
-             <tema num="3">Si</tema>
-             <tema num="4">Si</tema>
+             <tema num="1">UF1: Si</tema>
+             <tema num="2">UF2: Si</tema>
+             <tema num="3">UF3: Si</tema>
+             <tema num="4">UF4: Si</tema>
          </temas>
      </alumno>
      <alumno>
          <nome>Keely</nome>
          <apelido>Davis</apelido>
          <temas>
-             <tema num="1">Si</tema>
-             <tema num="2">Si</tema>
-             <tema num="3">Si</tema>
-             <tema num="4">Si</tema>
+             <tema num="1">UF1: Si</tema>
+             <tema num="2">UF2: Si</tema>
+             <tema num="3">UF3: Si</tema>
+             <tema num="4">UF4: Si</tema>
          </temas>
      </alumno>
      <alumno>
@@ -33,40 +33,40 @@
          <apelido>Hinojos</apelido>
          <apelido>González</apelido>
          <temas>
-             <tema num="1">Si</tema>
-             <tema num="2">Non</tema>
-             <tema num="3">Si</tema>
-             <tema num="4">Si</tema>
+             <tema num="1">UF1: Si</tema>
+             <tema num="2">UF2: Non</tema>
+             <tema num="3">UF3: Si</tema>
+             <tema num="4">UF4: Si</tema>
          </temas>
      </alumno>
      <alumno>
          <nome>Tony</nome>
          <apelido>Hajjar</apelido>
          <temas>
-             <tema num="1">Non</tema>
-             <tema num="2">Si</tema>
-             <tema num="3">Si</tema>
-             <tema num="4">Si</tema>
+             <tema num="1">UF1: Non</tema>
+             <tema num="2">UF2: Si</tema>
+             <tema num="3">UF3: Si</tema>
+             <tema num="4">UF4: Si</tema>
          </temas>
      </alumno>
      <alumno>
          <nome>Jim</nome>
          <apelido>Ward</apelido>
          <temas>
-             <tema num="1">Si</tema>
-             <tema num="2">Si</tema>
-             <tema num="3">Si</tema>
-             <tema num="4">Si</tema>
+             <tema num="1">UF1: Si</tema>
+             <tema num="2">UF2: Si</tema>
+             <tema num="3">UF3: Si</tema>
+             <tema num="4">UF4: Si</tema>
          </temas>
      </alumno>     
      <alumno>
          <nome>Jarret</nome>
          <apelido>Wrenn</apelido>
          <temas>
-             <tema num="1">Non</tema>
-             <tema num="2">Non</tema>
-             <tema num="3">Non</tema>
-             <tema num="4">Si</tema>
+             <tema num="1">UF1: Non</tema>
+             <tema num="2">UF2: Non</tema>
+             <tema num="3">UF3: Non</tema>
+             <tema num="4">UF4: Si</tema>
          </temas>
      </alumno>
   </alumnos>
