@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="ciclos.css" type="text/css"?>
+<educacion>
+    <datos>
+        <web>www.danielcastelao.org</web>
+        <institucion>CPR Daniel Castelao</institucion>
+    </datos>
+    <cursos>
+        <curso>
+            <nombre>Administración de Sistemas Informáticos en Rede</nombre>
+            <nivel>Superior</nivel>
+            <año>2023</año>
+        </curso>
+        <curso>
+            <nombre>Desenrolo de Aplicacións Multiplataforma</nombre>
+            <nivel>Superior</nivel>
+            <año>2023</año>
+        </curso>
+        <curso>
+            <nombre>Desenrolo de Aplicacións Web</nombre>
+            <nivel>Superior</nivel>
+            <año>2023</año>
+        </curso>
+        <curso>
+            <nombre>Sistemas Microinformáticos e Redes</nombre>
+            <nivel>Medio</nivel>
+            <año>2023</año>
+        </curso>
+    </cursos>
+
+</educacion>
