@@ -1,0 +1,33 @@
+*{
+    display:block;
+}
+titulo,autor,fechaPublicacion{
+    display: inline-block;
+    border: 2px solid black;
+    margin:3px;
+    padding: 10px;
+}
+libros{
+    border: 2px solid black;
+    height: fit-content;
+    width:fit-content;
+}
+titulo{
+    height: 20px;
+    width: 230px;
+}
+autor{
+    width: 130px;
+}
+nombre{
+    font-size: 30px;
+    background-color: gray;
+    width: 564.9px;
+    margin-bottom: 2px;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+libros{
+    padding: 30px;
+}
