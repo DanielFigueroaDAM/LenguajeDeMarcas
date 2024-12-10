@@ -102,3 +102,77 @@
 ## 15. **`font-weight: bold;`**
 - Aplica negrilla al texto para hacerlo más grueso y destacado.
 - Ejemplo: `font-weight: bold;`.
+## Guía sobre los valores de `display` en CSS
+
+### **1. `display: block;`**
+- Hace que un elemento sea un contenedor de bloque.
+- Características:
+  - Ocupa todo el ancho disponible.
+  - Inicia en una nueva línea.
+- Ejemplo: `div`, `p`, `h1` por defecto tienen este comportamiento.
+
+### **2. `display: inline;`**
+- Hace que un elemento se comporte como un elemento en línea.
+- Características:
+  - Solo ocupa el ancho necesario para su contenido.
+  - No inicia en una nueva línea.
+- Ejemplo: `span`, `a`, y `strong` tienen este comportamiento por defecto.
+
+### **3. `display: inline-block;`**
+- Combina características de `block` y `inline`.
+- Características:
+  - Se comporta como un elemento en línea, pero permite establecer propiedades como `width` y `height`.
+- Ejemplo: Útil para crear botones o elementos alineados en una fila con tamaño ajustable.
+
+### **4. `display: flex;`**
+- Activa el modelo de caja flexible (Flexbox).
+- Características:
+  - Permite alinear y distribuir elementos secundarios de forma eficiente.
+  - Ejemplo: `justify-content`, `align-items` funcionan con este valor.
+
+### **5. `display: grid;`**
+- Activa el modelo de cuadrícula (Grid).
+- Características:
+  - Permite organizar elementos en filas y columnas.
+  - Ejemplo: Útil para diseños complejos con `grid-template-rows` y `grid-template-columns`.
+
+### **6. `display: inline-flex;`**
+- Similar a `flex`, pero el contenedor se comporta como un elemento en línea.
+- Características:
+  - Los elementos secundarios se manejan como Flexbox, pero el contenedor se muestra en línea.
+
+### **7. `display: none;`**
+- Oculta el elemento completamente.
+- Características:
+  - El elemento no se renderiza ni ocupa espacio en el diseño.
+
+### **8. `display: contents;`**
+- Hace que el contenedor desaparezca visualmente.
+- Características:
+  - Solo los elementos secundarios son visibles, pero sin el contenedor en sí.
+
+### **9. `display: table;`**
+- Hace que el elemento se comporte como una tabla.
+- Características:
+  - Útil para estructurar contenido similar a las tablas HTML.
+
+### **10. `display: table-row;`**
+- Hace que el elemento se comporte como una fila de tabla.
+- Características:
+  - Solo tiene efecto si está dentro de un elemento con `display: table`.
+
+### **11. `display: table-cell;`**
+- Hace que el elemento se comporte como una celda de tabla.
+- Características:
+  - Solo tiene efecto dentro de un contenedor con `display: table-row`.
+
+### **12. `display: inherit;`**
+- Hereda el valor de `display` del elemento padre.
+- Ejemplo: Si el contenedor padre tiene `display: flex`, este valor será heredado.
+
+---
+
+### Resumen de usos comunes:
+- **Diseños simples**: `block`, `inline`, `inline-block`.
+- **Diseños avanzados**: `flex`, `grid`.
+- **Elementos invisibles**: `none`, `contents`.
