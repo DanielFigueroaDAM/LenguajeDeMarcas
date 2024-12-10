@@ -98,3 +98,7 @@
 ## 14. **`background-image: url('imagenes/sol.png');`**
 - Establece una imagen de fondo.
 - Ejemplo: `background-image: url('imagenes/sol.png'); background-size: cover;`.
+
+## 15. **`font-weight: bold;`**
+- Aplica negrilla al texto para hacerlo más grueso y destacado.
+- Ejemplo: `font-weight: bold;`.

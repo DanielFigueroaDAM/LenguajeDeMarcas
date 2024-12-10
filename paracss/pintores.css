@@ -1,0 +1,18 @@
+pintores{
+    display:block;
+}
+pintor{
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+    background-color: rgb(190, 120, 255);
+    border: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    padding-left: 40px;
+}
+nombre,nacido,fallecido,nacionalidad{
+    margin-left: 5px;
+}
