@@ -1,0 +1,36 @@
+/* Contenedor principal */
+libros {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre libros */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Cada libro */
+libro {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    padding: 10px;
+    background-color: #f0fff0; /* Fondo verde claro */
+}
+
+/* Título del libro */
+titulo {
+    display: block;
+    background-color: #d3d3d3; /* Fondo gris */
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 2px solid green;
+    margin-bottom: 10px;
+}
+
+/* Autor y año (alineados de forma flexible) */
+autor,
+fechaPublicacion {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
