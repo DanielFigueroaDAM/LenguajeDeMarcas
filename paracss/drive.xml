@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="drive.css" type="text/css"?>
+<drive>
+    <carpetas>
+        <carpeta>
+            <nombre>BD</nombre>
+            <ubicacion>En Mi unidad</ubicacion>
+        </carpeta>
+        <carpeta>
+            <nombre>SI</nombre>
+            <ubicacion>En Mi unidad</ubicacion>
+        </carpeta>
+        <carpeta>
+            <nombre>LM</nombre>
+            <ubicacion>En Mi unidad</ubicacion>
+        </carpeta>
+        <carpeta>
+            <nombre>ING</nombre>
+            <ubicacion>En Mi unidad</ubicacion>
+        </carpeta>
+        <carpeta>
+            <nombre>COD</nombre>
+            <ubicacion>En Mi unidad</ubicacion>
+        </carpeta>
+        <carpeta>
+            <nombre>entrevista</nombre>
+            <ubicacion>En Mi unidad</ubicacion>
+        </carpeta>
+    </carpetas>
+</drive>

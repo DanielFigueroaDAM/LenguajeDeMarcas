@@ -1,0 +1,37 @@
+
+tarjetas{
+    display:flex;
+    justify-content: center;
+}
+tarjeta{
+    width: 200px;
+    height: 268px;
+    margin: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+titulo{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    height: 40px;
+    padding-top: 20px;
+}
+linea{
+    display:block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+contenido{
+    display:block;
+    height: 150px;
+}
+pie{    
+    border: 2px solid;
+    display: block;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding-top: 18px;
+    height: 36px;
+}

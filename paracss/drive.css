@@ -1,0 +1,11 @@
+carpetas{
+    display: flex;
+    justify-content: center;
+
+}
+carpeta{
+    display: block;
+    width: 300px
+    height: 400px;
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tarjeta23.css"?>
+<tarjetas>
+    <tarjeta>
+        <titulo>Tarjeta Izquierda</titulo>
+        <contenido>
+            <linea>Contenido del cuerpo</linea>
+            <linea>Contenido del cuerpo</linea>
+            <linea>Contenido del cuerpo</linea>
+        </contenido>
+        <pie>Pie</pie>
+    </tarjeta>
+    <tarjeta>
+        <titulo>Tarjeta centro</titulo>
+        <contenido>
+            <linea>Contenido del cuerpo</linea>
+        </contenido>
+        <pie>Pie</pie>
+    </tarjeta>
+    <tarjeta>
+        <titulo>Tarjeta derecha</titulo>
+        <contenido>
+            <linea>Contenido del cuerpo</linea>
+        </contenido>
+        <pie>Pie</pie>
+    </tarjeta>
+</tarjetas>
