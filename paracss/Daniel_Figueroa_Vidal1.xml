@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="Daniel_Figueroa_Vidal1.css" type="text/css"?>
+<centro>
+    <nomeCentro>CICLOS DANIEL CASTELAO</nomeCentro>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nome>Administración de Sistemas Informáticos en Red</nome>
+            <grao>Superior</grao>
+            <decretoTitulo>2009</decretoTitulo>
+        </ciclo>
+        <ciclo id="DAM">
+            <nome>Desarrollo de Aplicaciones Multiplataforma</nome>
+            <grao>Superior</grao>
+            <decretoTitulo>2010</decretoTitulo>
+        </ciclo>
+        <ciclo id="DAW">
+            <nome>Desarrollo de Aplicaciones Web</nome>
+            <grao>Superior</grao>
+            <decretoTitulo>2010</decretoTitulo>
+        </ciclo>
+        <ciclo id="SMR">
+            <nome>Sistemas Microinformáticos y Redes</nome>
+            <grao>Medio</grao>
+            <decretoTitulo>2008</decretoTitulo>
+        </ciclo>
+    </ciclos>
+</centro>

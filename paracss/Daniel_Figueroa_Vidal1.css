@@ -1,0 +1,16 @@
+*{
+    display: block;
+}
+grao,decretoTitulo{
+    display: none;
+}
+nomeCentro{
+    margin: 10px;
+    color: blue;
+    font-weight: bold;
+    text-decoration:underline;
+}
+nome{
+    margin: 10px;
+    color:gray;
+}

@@ -1,14 +1,14 @@
 *{
-    display:block;
+    display: block;
 }
 titulo,autor,fechaPublicacion{
-    display: inline-block;
+    display:inline-block;
     border: 2px solid black;
     margin:3px;
 }
 libros{
     border: 2px solid black;
-    height: 90px;
+    height: 100px;
     width:fit-content;
     margin-left: 35px;
 }
