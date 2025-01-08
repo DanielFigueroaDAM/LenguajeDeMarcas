@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<produto>
+    <nombre>Pegamento</nombre>
+    <precio>24</precio>
+    <stock>0</stock>
+</produto>

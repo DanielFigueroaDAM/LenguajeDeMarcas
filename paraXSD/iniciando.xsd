@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="hotel">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"></xs:minInclusive>
+                <xs:maxInclusive value="50"></xs:maxInclusive>
+            </xs:restriction>
+        </xs:simpleType>
+
+    </xs:element>
+</xs:schema>
