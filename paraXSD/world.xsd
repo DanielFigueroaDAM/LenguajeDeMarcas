@@ -15,9 +15,83 @@
                             <xs:element name="ano">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:integer">
-                                        <xs:minLength value="4"></xs:minLength>
+                                        <xs:minExclusive value="0"></xs:minExclusive>
                                     </xs:restriction>
                                 </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="rexion" default="LEC">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="LCK|LPL|LEC|LCS|PCS|VCS|CBLOL|LLA"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="xogadores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="xogador" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nome" type="xs:string"></xs:element>
+                                                    <xs:element name="idade">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:integer">
+                                                                <xs:maxInclusive value="99"></xs:maxInclusive>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="alcume" type="xs:string"></xs:element>
+                                                    <xs:element name="rol">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:pattern
+                                                                    value="Top|Jungla|Mid|ADC|Support"></xs:pattern>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="campion" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="nacionalidade" type="xs:string"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="adestrador" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nome" type="xs:string"></xs:element>
+                                        <xs:element name="alcume" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="nacionalidade" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="victorias" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="torneo" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nome" type="xs:string"></xs:element>
+                                                    <xs:element name="ano">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:integer">
+                                                                <xs:minExclusive value="999"></xs:minExclusive>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="premio" minOccurs="1">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:integer">
+                                                                <xs:minInclusive value="500" />
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>

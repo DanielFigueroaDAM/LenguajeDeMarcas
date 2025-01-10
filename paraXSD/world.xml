@@ -6,27 +6,24 @@
         <ano>2015</ano>
         <rexion>LCK</rexion>
         <xogadores>
-            <xogador>
+            <xogador nacionalidade="Koreana">
                 <nome>Kim Min-soo</nome>
                 <idade>23</idade>
                 <alcume>Flame</alcume>
                 <rol>Top</rol>
                 <campion>Fiora</campion>
-                <nacionalidade nacionalidade="Coreana"/>
             </xogador>
-            <xogador>
+            <xogador nacionalidade="Koreana">
                 <nome>Lee Sang-hyeok</nome>
                 <idade>26</idade>
                 <alcume>Faker</alcume>
                 <rol>Mid</rol>
                 <campion>Ryze</campion>
-                <nacionalidade nacionalidade="Coreana"/>
             </xogador>
         </xogadores>
-        <adestrador>
+        <adestrador nacionalidade="Koreana">
             <nome>Kang Seung-hun</nome>
             <alcume>Coach K</alcume>
-            <nacionalidade nacionalidade="Coreana"/>
         </adestrador>
         <victorias>
             <torneo>
@@ -46,35 +43,31 @@
         <ano>2018</ano>
         <rexion>LEC</rexion>
         <xogadores>
-            <xogador>
+            <xogador nacionalidade="Sueca">
                 <nome>Martin Larsson</nome>
                 <idade>24</idade>
                 <alcume>Rekkles</alcume>
                 <rol>ADC</rol>
                 <campion>Ezreal</campion>
-                <nacionalidade nacionalidade="Sueca"/>
             </xogador>
-            <xogador>
+            <xogador nacionalidade="Polaca">
                 <nome>Oskar Bogdan</nome>
                 <idade>22</idade>
                 <alcume>Vander</alcume>
                 <rol>Support</rol>
                 <campion>Thresh</campion>
-                <nacionalidade nacionalidade="Polaca"/>
             </xogador>
-            <xogador>
+            <xogador nacionalidade="Británica">
                 <nome>Barney Morris</nome>
                 <idade>25</idade>
                 <alcume>Alphari</alcume>
                 <rol>Top</rol>
                 <campion>Ornn</campion>
-                <nacionalidade nacionalidade="Británica"/>
             </xogador>
         </xogadores>
-        <adestrador>
+        <adestrador nacionalidade="Holandesa">
             <nome>Fabian Diepstraten</nome>
             <alcume>Febiven</alcume>
-            <nacionalidade nacionalidade="Holandesa"/>
         </adestrador>
         <victorias>
             <torneo>
