@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="world.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<mundial>
+    <equipo>
+        <nome>Dragons of LCK</nome>
+        <ano>2015</ano>
+        <rexion>LCK</rexion>
+        <xogadores>
+            <xogador>
+                <nome>Kim Min-soo</nome>
+                <idade>23</idade>
+                <alcume>Flame</alcume>
+                <rol>Top</rol>
+                <campion>Fiora</campion>
+                <nacionalidade nacionalidade="Coreana"/>
+            </xogador>
+            <xogador>
+                <nome>Lee Sang-hyeok</nome>
+                <idade>26</idade>
+                <alcume>Faker</alcume>
+                <rol>Mid</rol>
+                <campion>Ryze</campion>
+                <nacionalidade nacionalidade="Coreana"/>
+            </xogador>
+        </xogadores>
+        <adestrador>
+            <nome>Kang Seung-hun</nome>
+            <alcume>Coach K</alcume>
+            <nacionalidade nacionalidade="Coreana"/>
+        </adestrador>
+        <victorias>
+            <torneo>
+                <nome>World Championship</nome>
+                <ano>2016</ano>
+                <premio>2000000</premio>
+            </torneo>
+            <torneo>
+                <nome>MSI</nome>
+                <ano>2017</ano>
+                <premio>500000</premio>
+            </torneo>
+        </victorias>
+    </equipo>
+    <equipo>
+        <nome>LEC Lions</nome>
+        <ano>2018</ano>
+        <rexion>LEC</rexion>
+        <xogadores>
+            <xogador>
+                <nome>Martin Larsson</nome>
+                <idade>24</idade>
+                <alcume>Rekkles</alcume>
+                <rol>ADC</rol>
+                <campion>Ezreal</campion>
+                <nacionalidade nacionalidade="Sueca"/>
+            </xogador>
+            <xogador>
+                <nome>Oskar Bogdan</nome>
+                <idade>22</idade>
+                <alcume>Vander</alcume>
+                <rol>Support</rol>
+                <campion>Thresh</campion>
+                <nacionalidade nacionalidade="Polaca"/>
+            </xogador>
+            <xogador>
+                <nome>Barney Morris</nome>
+                <idade>25</idade>
+                <alcume>Alphari</alcume>
+                <rol>Top</rol>
+                <campion>Ornn</campion>
+                <nacionalidade nacionalidade="Británica"/>
+            </xogador>
+        </xogadores>
+        <adestrador>
+            <nome>Fabian Diepstraten</nome>
+            <alcume>Febiven</alcume>
+            <nacionalidade nacionalidade="Holandesa"/>
+        </adestrador>
+        <victorias>
+            <torneo>
+                <nome>LEC Summer Split</nome>
+                <ano>2019</ano>
+                <premio>100000</premio>
+            </torneo>
+        </victorias>
+    </equipo>
+</mundial>
