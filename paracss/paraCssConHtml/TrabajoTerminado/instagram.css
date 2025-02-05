@@ -32,7 +32,7 @@
 }
 .fa-ellipsis-v{
     font-size: 30px;
-    margin-left: 40%;
+    float:right;
     margin-right: 4%;
 }
 .texto-cabe{
@@ -45,5 +45,6 @@
     font-weight: bold;
 }
 .fa-bookmark{
-    margin-left: 70%;
+    float:right;
+    margin-right: 4%;
 }
