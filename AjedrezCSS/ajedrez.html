@@ -1,99 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajedrez</title>
+    <link rel="stylesheet" href="ajedrez.css">
 </head>
+
 <body>
-    <div class="tablero">
-        <!-- Fila 8 -->
-        <div class="fila">
-          <div class="casilla negra"><img src="pezas_xadrez/black_rook.png" alt="Torre Negra"></div>
-          <div class="casilla blanca"><img src="pezas_xadrez/black_knight.png" alt="Caballo Negro"></div>
-          <div class="casilla negra"><img src="pezas_xadrez/black_bishop.png" alt="Alfil Negro"></div>
-          <div class="casilla blanca"><img src="pezas_xadrez/black_queen.png" alt="Reina Negra"></div>
-          <div class="casilla negra"><img src="pezas_xadrez/black_king.png" alt="Rey Negro"></div>
-          <div class="casilla blanca"><img src="pezas_xadrez/black_bishop.png" alt="Alfil Negro"></div>
-          <div class="casilla negra"><img src="pezas_xadrez/black_knight.png" alt="Caballo Negro"></div>
-          <div class="casilla blanca"><img src="pezas_xadrez/black_rook.png" alt="Torre Negra"></div>
-        </div>       
+    <div class="recuadro">
+        <div class="contenedor-tablero">
+            <div class="fila etiquetas-columnas">
+                <div class="casilla etiqueta"></div>
+                <div class="casilla etiqueta">A</div>
+                <div class="casilla etiqueta">B</div>
+                <div class="casilla etiqueta">C</div>
+                <div class="casilla etiqueta">D</div>
+                <div class="casilla etiqueta">E</div>
+                <div class="casilla etiqueta">F</div>
+                <div class="casilla etiqueta">G</div>
+                <div class="casilla etiqueta">H</div>
+            </div>
 
-        <div class="fila">
-            <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peon Negro"></div>
-        </div>
-        <div class="fila">
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-        </div>
-        <div class="fila">
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-        </div>
-        <div class="fila">
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-        </div>
-        <div class="fila">
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-            <div class="casilla blanca"></div>
-            <div class="casilla negra"></div>
-        </div>
-        <div class="fila">
-            <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peon Negro"></div>
-        </div>
-        <div class="fila">
-            <div class="casilla negra"><img src="pezas_xadrez/white_rook.png" alt="Torre Negra"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_knight.png" alt="Caballo Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_bishop.png" alt="Alfil Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_queen.png" alt="Reina Negra"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_king.png" alt="Rey Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_bishop.png" alt="Alfil Negro"></div>
-            <div class="casilla negra"><img src="pezas_xadrez/white_knight.png" alt="Caballo Negro"></div>
-            <div class="casilla blanca"><img src="pezas_xadrez/white_rook.png" alt="Torre Negra"></div>
-          </div> 
+            <div class="tablero">
+                <div class="fila">
+                    <div class="casilla etiqueta">8</div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_rook.png" alt="Torre Negra"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_knight.png" alt="Caballo Negro"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_bishop.png" alt="Alfil Negro"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_queen.png" alt="Reina Negra"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_king.png" alt="Rey Negro"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_bishop.png" alt="Alfil Negro"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_knight.png" alt="Caballo Negro"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_rook.png" alt="Torre Negra"></div>
+                    
+                </div>
 
+                <!-- Fila 7 -->
+                <div class="fila">
+                    <div class="casilla etiqueta">7</div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/black_pawn.png" alt="Peón Negro"></div>
+                </div>
 
-          
-      </div>
-      
-    
+                <!-- Filas vacías (6 a 3) -->
+                <div class="fila">
+                    <div class="casilla etiqueta">6</div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                </div>
+                <div class="fila">
+                    <div class="casilla etiqueta">5</div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                </div>
+                <div class="fila">
+                    <div class="casilla etiqueta">4</div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                </div>
+                <div class="fila">
+                    <div class="casilla etiqueta">3</div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                    <div class="casilla blanca"></div>
+                    <div class="casilla negra"></div>
+                </div>
+
+                <!-- Fila 2 -->
+                <div class="fila">
+                    <div class="casilla etiqueta">2</div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_pawn.png" alt="Peón Blanco"></div>
+                </div>
+
+                <!-- Fila 1 -->
+                <div class="fila">
+                    <div class="casilla etiqueta">1</div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_rook.png" alt="Torre Blanca"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_knight.png" alt="Caballo Blanco"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_bishop.png" alt="Alfil Blanco"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_queen.png" alt="Reina Blanca"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_king.png" alt="Rey Blanco"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_bishop.png" alt="Alfil Blanco"></div>
+                    <div class="casilla blanca"><img src="pezas_xadrez/white_knight.png" alt="Caballo Blanco"></div>
+                    <div class="casilla negra"><img src="pezas_xadrez/white_rook.png" alt="Torre Blanca"></div>
+                </div>
+            </div>
+
+            <!-- Etiquetas de columnas abajo -->
+            <div class="fila etiquetas-columnas">
+                <div class="casilla etiqueta"></div>
+                <div class="casilla etiqueta">A</div>
+                <div class="casilla etiqueta">B</div>
+                <div class="casilla etiqueta">C</div>
+                <div class="casilla etiqueta">D</div>
+                <div class="casilla etiqueta">E</div>
+                <div class="casilla etiqueta">F</div>
+                <div class="casilla etiqueta">G</div>
+                <div class="casilla etiqueta">H</div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

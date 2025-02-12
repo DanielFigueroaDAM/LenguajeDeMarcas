@@ -1,0 +1,51 @@
+
+.tablero {
+    display: flex;
+    flex-direction: column;
+    width: 640px; /* 8 casillas de 80px */
+    height: 640px;
+    margin: 0 auto; /* Centrar el tablero horizontalmente */
+  }
+  
+  .fila {
+    display: flex;
+  }
+  
+  .casilla {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .casilla.blanca {
+    background-color: #f0d9b5; /* Color claro */
+  }
+  
+  .casilla.negra {
+    background-color: #b58863; /* Color oscuro */
+  }
+  .casilla img {
+    width: 60%;
+    height: 60%;
+  }
+  .recuadro{
+    border: 1px solid black;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .casilla.etiqueta{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+
+  
