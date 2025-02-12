@@ -1,7 +1,7 @@
 
 .tablero {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
     width: 640px; /* 8 casillas de 80px */
     height: 640px;
     margin: 0 auto; /* Centrar el tablero horizontalmente */
