@@ -50,19 +50,24 @@
   justify-content: center;
   align-items: center;
 }
-.press-start-2p-regular {
-  font-family: "Press Start 2P", serif;
-  font-weight: 400;
+.pixelify-sans-uniquifier {
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
+  font-size: 20px;
 }
-body{
-  font-family: "Press Start 2P", serif;
-  font-weight: 400;
+
+body {
+  font-family: "Pixelify Sans", serif;
+  font-weight: 600;
   font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  font-size: 25px;
+
+
 
 
 
