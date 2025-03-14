@@ -34,11 +34,16 @@ for (let i = 0; i < 3; i++) {
         break;
     }
 }
+comprobarVictoria(pPrimera,pSegunda)
 
-if (pPrimera > pSegunda) {
-    alert("Ganó el primero");
-} else if (pSegunda > pPrimera) {
-    alert("Ganó el segundo");
+
+
+function comprobarVictoria(n1,n2){
+    if (n1 > n2) {
+        alert("Ganó el primero");
+    } else if (pSegunda > pPrimera) {
+        alert("Ganó el segundo");
+    }
 }
 
 function eleccion(indice) {
