@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #cardImage{
+    width: 300px;
+    height: auto;
+  }
+  #cardImageP {
+    width: 320px;
+    height: auto;
+  }
+  
+  #generateBtn,
+  #generateBtp {
+    margin-top: 1rem;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #generateBtn:hover,
+  #generateBtp:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  #generateBtn:active,
+  #generateBtp:active {
+    transform: translateY(0);
+  }
+  body {
+    background-image: url('fondoCartas.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
