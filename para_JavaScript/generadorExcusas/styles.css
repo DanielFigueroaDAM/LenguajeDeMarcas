@@ -8,9 +8,9 @@ body {
   font-family: 'Arial', sans-serif;
   color: #333;
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center;     /* Centra verticalmente */
-  min-height: 100vh;       /* Hace que el body ocupe al menos la altura completa de la ventana */
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;      
 }
 
 .container {

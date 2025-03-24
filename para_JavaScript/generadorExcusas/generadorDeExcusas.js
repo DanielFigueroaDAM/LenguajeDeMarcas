@@ -1,11 +1,10 @@
 let boton = document.querySelector("#generateBtn");
 let titulo = document.querySelector("h1");
 
-// Agrega el evento click al botón
+
 boton.addEventListener("click", cambiarTexto);
 
 function cambiarTexto(){
-    // Actualiza el contenido del título con la excusa generada
     titulo.innerHTML = quien() + " " + que() + " " + como() + " " + palabraFinal();
 }
 
