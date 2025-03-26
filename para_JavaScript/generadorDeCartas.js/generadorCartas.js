@@ -117,4 +117,6 @@ function cambiarImagenP() {
 }
 
 
+function sieteYMedio(array){
 
+}

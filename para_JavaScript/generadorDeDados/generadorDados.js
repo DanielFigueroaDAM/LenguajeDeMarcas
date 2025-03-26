@@ -1,12 +1,13 @@
 const contenedor = document.getElementById('contenedor');
 let boton = document.querySelector("#gBtn");
+var cantidad = document.querySelector("#cantidad");
 
 
 boton.addEventListener("click", tirarDados);
 
 function tirarDados(){
-  const cantidadImagenes = 2; // Número de imágenes que deseas generar
-
+  contenedor.innerHTML = '';
+  const cantidadImagenes = parseInt(cantidad.value);
   for (let i = 1; i <= cantidadImagenes; i++) {
     generarDado()
     generarDado()
@@ -15,9 +16,9 @@ function tirarDados(){
 
 function generarDado(){
   let num=randomItem();
-  contenedor.innerHTML += `<img src="imagen${num}.png" alt="Imagen ${num}" width="200">`;
+  contenedor.innerHTML += `<img src="dado${num}.png" alt="Dado ${num}" width="200">`;
 }
 
 function randomItem(){
-  return Math.floor(Math.random()*6);
+  return Math.floor(Math.random() * 6) + 1;
 }
