@@ -55,3 +55,19 @@ body {
       background-color: #45a049;
     }
   
+    #paraSuma {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+  
+      #paraSuma h1 {
+        margin: 0;
+        font-size: 25px;
+        display: inline;
+      }
