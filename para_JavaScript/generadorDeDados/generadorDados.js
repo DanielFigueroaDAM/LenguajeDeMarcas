@@ -10,13 +10,12 @@ function tirarDados(){
   const cantidadImagenes = parseInt(cantidad.value);
   for (let i = 1; i <= cantidadImagenes; i++) {
     generarDado()
-    generarDado()
   }
 }
 
 function generarDado(){
   let num=randomItem();
-  contenedor.innerHTML += `<img src="dado${num}.png" alt="Dado ${num}" width="200">`;
+  contenedor.innerHTML += `<img id="dado_generado" src="dado${num}.png" alt="Dado ${num}" width="300">`;
 }
 
 function randomItem(){
