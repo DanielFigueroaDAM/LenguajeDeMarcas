@@ -14,13 +14,6 @@ function tiraDado(){
 
 
 
-
-
-
-
-
-
-
 function randomItem(){
     let randomz= Math.floor(Math.random() * 6) + 1;
     return randomz
