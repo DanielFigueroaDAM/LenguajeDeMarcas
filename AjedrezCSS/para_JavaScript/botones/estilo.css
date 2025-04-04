@@ -1,0 +1,20 @@
+.miBoton{
+    font-family: 'TrickOrDead';
+    all: unset;
+    background-image: url(carton.png);
+    background-size: cover;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background-position: center;
+}
+@font-face {
+    font-family: 'TrickOrDead';
+    src: url(TrickOrDead.ttf) format('trueType');
+}
+.miBoton:hover{
+    filter: hue-rotate(188deg) saturate(254%);
+}
+.miBoton:active{
+    scale:1.2;
+}
