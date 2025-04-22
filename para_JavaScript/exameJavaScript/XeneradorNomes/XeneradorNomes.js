@@ -15,7 +15,7 @@ var apellido = prompt("Escribe tu apellido")
 
 
 generar()
-
+//para recoger valor de los imputs usamos el .value
 
 
 
@@ -26,7 +26,7 @@ function generar() {
     console.log(arrayNome[averguarPosicion(primeraLetraNombre)])
     console.log(arrayNome[averguarPosicion(primeraLetraApellido)])
 
-    respuesta.innerHTML = arrayNome[averguarPosicion(primeraLetraNombre)] + " " + arrayNome[averguarPosicion(primeraLetraApellido)]
+    respuesta.innerHTML = arrayNome[averguarPosicion(primeraLetraNombre)] + " " + arrayApellido[averguarPosicion(primeraLetraApellido)]
 
 }
 
@@ -43,6 +43,7 @@ function averguarPosicion(primeraLetraNombre) {
     }
     return posicion
 }
+//metodo para averiguar la posicion con indexOf let posicionNome=arrayLetras.indexOf(inicialNome)
 
 
 
