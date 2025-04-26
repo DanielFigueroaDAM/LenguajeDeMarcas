@@ -19,3 +19,8 @@ function recogerDatos() {
 }
 let btn=document.getElementById("btn");
 btn.addEventListener("click", recogerDatos);
+
+
+// recoger datos y elementos de una lista
+//listaCompra.js 
+

@@ -1,0 +1,119 @@
+/* listaCompra.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Cuerpo y tipografía */
+  body {
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  /* Título */
+  #titulo {
+    font-size: 32px;
+    color: #264653;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor principal */
+  #contenid {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 480px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Lista sin viñetas */
+  #lista {
+    list-style: none;
+  }
+  
+  #lista li {
+    background-color: #f4f4f4;
+    margin-bottom: 12px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s;
+  }
+  
+  #lista li:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    max-width: 480px;
+  }
+  
+  .nuevoElemento {
+    flex: 1 1 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+  }
+  
+  /* Botones */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  #boton {
+    background-color: #2a9d8f;
+    color: #ffffff;
+  }
+  
+  #boton:hover {
+    background-color: #21867a;
+  }
+  
+  #resetear {
+    background-color: #264653;
+    color: #ffffff;
+  }
+  
+  #resetear:hover {
+    background-color: #1f3442;
+  }
+  
+  /* Adaptación móvil */
+  @media (max-width: 400px) {
+    form {
+      flex-direction: column;
+    }
+  
+    .nuevoElemento,
+    button {
+      width: 100%;
+    }
+  }
+  
