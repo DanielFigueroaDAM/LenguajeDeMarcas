@@ -116,7 +116,3 @@ function cambiarImagenP() {
   document.getElementById('cardImageP').alt = cartaP.nombre;
 }
 
-
-function sieteYMedio(array){
-
-}
