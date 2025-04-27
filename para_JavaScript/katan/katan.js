@@ -1,7 +1,7 @@
-let mapaKatan=[{
+var mapaKatan = [{
     id: 1,
     tipo: "pedra",
-    numero:10,
+    numero: 10,
 },
 {
     id: 2,
@@ -43,7 +43,7 @@ let mapaKatan=[{
     tipo: "madeira",
     numero: 11,
 }
-,{
+    , {
     id: 10,
     tipo: "madeira",
     numero: 3,
@@ -89,3 +89,46 @@ let mapaKatan=[{
     numero: 11,
 }
 ]
+function iniciarJuego() {
+    let vermelloNumeros = [10, 2, 6, 9, 11, 8];
+    let azulNumeros = [8, 3, 5, 4, 5, 11];
+    let brancoNumeros = [3, 8, 5, 12, 6, 11];
+    let amareloNumeros = [9, 4, 10, 3, 4, 6];
+
+}
+
+var vermelloMateriales = {
+    pedra: 0,
+    ovella: 0,
+    madeira: 0,
+    trigo: 0,
+    barro: 0
+}
+var azulMateriales = {
+    pedra: 0,
+    ovella: 0,
+    madeira: 0,
+    trigo: 0,
+    barro: 0
+}
+var brancoMateriales = {
+    pedra: 0,
+    ovella: 0,
+    madeira: 0,
+    trigo: 0,
+    barro: 0
+}
+var amareloMateriales = {
+    pedra: 0,
+    ovella: 0,
+    madeira: 0,
+    trigo: 0,
+    barro: 0
+}
+
+
+
+function sacarMateriales(jugadorArray) {
+    
+
+}
