@@ -1,0 +1,22 @@
+body{
+    font-family: system-ui, sans-serif;
+    padding: 1rem;
+  }
+  #contenedor img{
+    margin: 0 .25rem;
+    vertical-align: middle;
+  }
+  #materiales{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+  #materiales div{
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+    background: #f4f4f4;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    min-width: 12rem;
+    font-variant-numeric: tabular-nums;
+  }
