@@ -1,5 +1,5 @@
 
-let vasoCorrecto=randomItem()
+var vasoCorrecto=randomItem()
 
 var contadorF=0
 var contadorA=0
@@ -17,26 +17,28 @@ boton3.addEventListener("click", descubir3);
 
 
 
-function descubir1(vasoCorrecto){
+function descubir1(){
     if(vasoCorrecto==1){
         contadorA++
-        boton1.innerHTML+="<img src="+"moneda.png"+">"
+        boton1.innerHTML="<img src="+"moneda.png"+">"
     }else{
         contadorF++
     }
 
 }
-function descubir2(vasoCorrecto){
+function descubir2(){
     if(vasoCorrecto==2){
         contadorA++
+        boton2.innerHTML="<img src="+"moneda.png"+">"
     }else{
         contadorF++
     }
 
 }
-function descubir3(vasoCorrecto){
+function descubir3(){
     if(vasoCorrecto==3){
         contadorA++;
+        boton3.innerHTML="<img src="+"moneda.png"+">"
     }else{
         contadorF++
     }
@@ -44,7 +46,7 @@ function descubir3(vasoCorrecto){
 }
 
 function randomItem(){
-    return Math.floor(Math.random()*3);
+    return Math.floor(Math.random()*3+1);
 }
 
 let aciertos=document.querySelector(".a")
