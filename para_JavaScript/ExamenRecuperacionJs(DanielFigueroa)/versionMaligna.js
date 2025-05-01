@@ -9,7 +9,7 @@ function evilNombre(indice){
     let nuevoNombre="";
     let lNombre=alumnosNombres[indice].charAt(0)+alumnosNombres[indice].charAt(1);
 
-    let lApellido=alumnosApellidos[indice].charAt(0)+alumnosApellidos[indice].charAt(1);
+    let lApellido=alumnosApellidos[indice].charAt(0)+alumnosApellidos[indice].charAt(1); 
 
     nuevoNombre=lApellido+alumnosNombres[indice].substring(2,alumnosNombres[indice].length)+" ";
     nuevoNombre+=lNombre+alumnosApellidos[indice].substring(2,alumnosApellidos[indice].length);
